@@ -23,4 +23,4 @@ This is a java program. Therefore it can be run directly through "java" program 
 |"let(a, let(b, 10, add(b, b)), let(b, 20, add(a, b))"|40|
 
 
-**Note:** you will need to have the following jar files in the class path: log4j-api-2.5.jar and log4j-core-2.5.jar.
+**Note:** This project is supposed to have a unit test that should run during the build. However, I could not add it due to a lack of time. Also, the release should be defined in the pom file but it is not there yet.
