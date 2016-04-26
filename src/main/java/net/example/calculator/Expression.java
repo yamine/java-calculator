@@ -211,8 +211,9 @@ public class Expression {
      * @throws ParsingException, ComputeException, ArithmeticException
      */
     public Integer compute(Map<String, Integer> args) throws ParsingException, ComputeException, ArithmeticException {
-	//No-op method
 	logger.error("Unexpected call to Expression.compute()");
+	//This method could return an exception as an error for calling this method from 
+	// super class. For now just return a null value.
 	return null;
     }
     /* (non-Javadoc)

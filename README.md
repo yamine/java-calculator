@@ -22,5 +22,4 @@ This is a java program. Therefore it can be run directly through "java" program 
 |"let(a, 5, let(b, mult(a, 10), add(b, a)))"|55|
 |"let(a, let(b, 10, add(b, b)), let(b, 20, add(a, b))"|40|
 
-
-**Note:** This project is supposed to have a unit test that should run during the build. However, I could not add it due to a lack of time. Also, the release should be defined in the pom file but it is not there yet.
+**Note:** The pom.xml file is missing the release version to be included during the build. This is a small test project i.e. not meant to be distributed. 
